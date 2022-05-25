@@ -1,0 +1,12 @@
+#!/bin/bash
+
+### SNP mode
+input=/hwfssz1/ST_BIOINTEL/P18Z10200N0374/huangfei/Plist/BGI2002/Annot/snp_for_anno_new.vcf
+outfile=/hwfssz1/ST_BIOINTEL/P18Z10200N0374/huangfei/Plist/BGI2002/Annot/VEP/snp.vep.vcf.gz
+/ldfssz1/ST_BIGDATA/USER/huangfei/software/perl/bin/perl /ldfssz1/ST_BIGDATA/USER/huangfei/software/ensembl-vep-release-104/vep -i ${input} -o ${outfile} --offline --vcf --distance 2000  --compress_output gzip --everything  --fasta /jdfssz1/ST_BIGDATA/USER/huangfei/database/genome/hg38_noalt_withrandom/hg38.fa --dir_cache /ldfssz1/ST_BIGDATA/USER/huangfei/software/ensembl-vep-release-104/cache  --plugin  LoF,human_ancestor_fa:/ldfssz1/ST_BIGDATA/USER/huangfei/software/ensembl-vep-release-104/data/human_ancestor.fa.gz,conservation_file:/ldfssz1/ST_BIGDATA/USER/huangfei/software/ensembl-vep-release-104/data/loftee.sql,loftee_path:/ldfssz1/ST_BIGDATA/USER/huangfei/software/ensembl-vep-release-104/plugins/loftee,tabix_path:/ldfssz1/ST_BIGDATA/USER/huangfei/software/bin/tabix,gerp_file:/ldfssz1/ST_BIGDATA/USER/huangfei/software/ensembl-vep-release-104/data/gerp_conservation_scores.homo_sapiens.GRCh38.bw --dir_plugins /ldfssz1/ST_BIGDATA/USER/huangfei/software/ensembl-vep-release-104/plugins/loftee/
+
+### INDEL mode
+input=/hwfssz1/ST_BIOINTEL/P18Z10200N0374/huangfei/Plist/BGI2002/Annot/indel_for_anno_new.vcf
+outfile=/hwfssz1/ST_BIOINTEL/P18Z10200N0374/huangfei/Plist/BGI2002/Annot/VEP/indel.vep.vcf.gz
+/ldfssz1/ST_BIGDATA/USER/huangfei/software/perl/bin/perl /ldfssz1/ST_BIGDATA/USER/huangfei/software/ensembl-vep-release-104/vep -i ${input} -o ${outfile} --offline --vcf --distance 2000  --compress_output gzip --everything  --fasta /jdfssz1/ST_BIGDATA/USER/huangfei/database/genome/hg38_noalt_withrandom/hg38.fa --dir_cache /ldfssz1/ST_BIGDATA/USER/huangfei/software/ensembl-vep-release-104/cache  --plugin  LoF,human_ancestor_fa:/ldfssz1/ST_BIGDATA/USER/huangfei/software/ensembl-vep-release-104/data/human_ancestor.fa.gz,conservation_file:/ldfssz1/ST_BIGDATA/USER/huangfei/software/ensembl-vep-release-104/data/loftee.sql,loftee_path:/ldfssz1/ST_BIGDATA/USER/huangfei/software/ensembl-vep-release-104/plugins/loftee,tabix_path:/ldfssz1/ST_BIGDATA/USER/huangfei/software/bin/tabix,gerp_file:/ldfssz1/ST_BIGDATA/USER/huangfei/software/ensembl-vep-release-104/data/gerp_conservation_scores.homo_sapiens.GRCh38.bw --dir_plugins /ldfssz1/ST_BIGDATA/USER/huangfei/software/ensembl-vep-release-104/plugins/loftee/
+
