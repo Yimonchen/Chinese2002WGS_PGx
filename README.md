@@ -20,3 +20,4 @@ Meanwhile, 94 participants came from 19 different ethnic minority groups and 6 p
 
 Participant birthplaces were diverse and covered the 30 Chinese administrative districts, indicating a representative spread of the Chinese population.
 
+![This is a image](images/Chinese_2002_individuals_distribution.png)
