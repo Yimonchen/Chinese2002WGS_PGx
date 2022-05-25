@@ -10,4 +10,13 @@ This repository includes all in-house R scripts and part of shell scripts that u
 
 3. The folder "test_data" only provides several examples that how the inupt looks like, and to help anyone would like to examine and understand the code.
 
-4. The reference genome assembly untillized in this study was hg38/GRCh38.
+4. The reference genome assembly untillized in this study is hg38/GRCh38.
+
+# Individual Brefinfo
+
+The study population included 939 males,1060 females, and three not provided. Participant ages ranged from 21–65. The majority of participants (1902, 95%) were Han Chinese.
+
+Meanwhile, 94 participants came from 19 different ethnic minority groups and 6 participants were unspecified.
+
+Participant birthplaces were diverse and covered the 30 Chinese administrative districts, indicating a representative spread of the Chinese population.
+
