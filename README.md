@@ -1,3 +1,13 @@
 # Chinese2002WGS_PGx
 
-This is a demo.
+This repository includes all in-house R scripts and part of shell scripts that used to analysze the  pharmacogenetic (PGx) germline genetic variation of 2002 Chinese individuals with Whole Genome Sequencing (WGS) data.
+
+# Important Comments
+
+1. Individual specific phenotype data (i.e., variation, gender, and birthplace) is not available due to data protection issues.
+
+2. Grouped genotyping data (VCFs) could be available under the CNGB Sequence Archive under accession number CNP0003021 after contacting the administrator to get permission. Individual level genotyping data could not be provided due to protection issues.
+
+3. The folder "test_data" only provides several examples that how the inupt looks like, and to help anyone would like to examine and understand the code.
+
+4. The reference genome assembly untillized in this study was hg38/GRCh38.
