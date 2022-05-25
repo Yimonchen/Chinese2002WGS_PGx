@@ -18,17 +18,25 @@ The study population included 939 males,1060 females, and three not provided. Pa
 
 Meanwhile, 94 participants came from 19 different ethnic minority groups and 6 participants were unspecified.
 
-Participant birthplaces were diverse and covered the 30 Chinese administrative districts, indicating a representative spread of the Chinese population.
+
+
+
+* Participant birthplaces were diverse and covered the 30 Chinese administrative districts, indicating a representative spread of the Chinese population.
 
 ![This is a image](images/Chinese_2002_individuals_distribution.png)
 
 
-We divided the 30 Chinese administrative districts into 4 subregions based on genetic features calculated using program PLINK and ADMIXTURE (k=3), which was illustrated as follow：
+
+
+* We divided the 30 Chinese administrative districts into 4 subregions based on genetic features calculated using program PLINK and ADMIXTURE (k=3), which was illustrated as follow：
 
 ![This is a image](images/Chinese_4subregions.png)
 
 
-We also performed statistical analysis that potentially ifentified allele frequency significant variants among 4 subregions of China.
+
+
+
+* We also performed statistical analysis that potentially ifentified allele frequency significant variants among 4 subregions of China.
 
 ![This is a image](images/North_South_diffSite.png)
 
