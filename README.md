@@ -12,7 +12,7 @@ This repository includes all in-house R scripts and part of shell scripts that u
 
 4. The reference genome assembly untillized in this study is hg38/GRCh38.
 
-#  Brief Imformation and Findings
+#  Brief Information and Findings
 
 The study population included 939 males,1060 females, and three not provided. Participant ages ranged from 21–65. The majority of participants (1902, 95%) were Han Chinese.
 
